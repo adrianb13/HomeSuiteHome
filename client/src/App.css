@@ -1,0 +1,276 @@
+.container {
+  max-width: 450px;
+  opacity: 1.0;
+}
+
+.container2 {
+  max-width: 60%;
+  margin: 5% 20% 0 20%;
+}
+
+img {
+  align-content: center
+}
+
+.imgSize {
+  height: 125px;
+  width: 125px;
+}
+.propDetailImg {
+  height: 300px;
+  width: 420px;
+}
+
+.backgroundWhite {
+  background: white;
+  padding: 20px;
+}
+.marginTop {
+  margin-top: 10px;
+}
+.marginTop2 {
+  margin-top: 20px;
+}
+
+/*Logo */
+.backgroundRed {
+  background: red;
+  min-height: -webkit-fill-available;
+  padding: 20px 0 20px 0;
+}
+.logo {
+  width: 382px;
+  margin-bottom: 15px;
+}
+.signin {
+  width: 500px
+}
+.form-control {
+  border-radius: 0
+}
+/* .btn-dark {
+  height: 35px
+} */
+.login {
+  display: block;
+  text-align: center;
+  padding-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logincontainer {
+  max-width: 280px;
+}
+
+/* Properties List Page */
+.backgroundPic {
+  background: url("./assets/images/List.jpg");
+  background-size: cover;
+  min-height: -webkit-fill-available;
+  padding: 20px 0 20px 0;
+}
+.outer {
+  width: 50%;
+/*   text-align: center; */
+  background: white;
+/*   opacity: 0.8; */
+  margin: 0px auto 0 auto;
+}
+.marginleft {
+  margin-left: 15px;
+}
+
+/* TitlingGothicFB Normal Thin */
+.nt {
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+
+/* TitlingGothicFB Normal Light */
+.nl {
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+/* TitlingGothicFB Normal Regular */
+.nr {
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+/* TitlingGothicFB Normal Medium */
+.nm {
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+/* TitlingGothicFB Normal Bold */
+.nb {
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+/* TitlingGothicFB Comp Standard */
+.cs {
+font-family: titling-gothic-fb-compressed, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+/* TitlingGothicFB Wide Standard */
+.ws {
+font-family: titling-gothic-fb-wide, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+p {
+text-align: left;
+margin-bottom: 2px;
+line-height: 1.3em
+}
+
+span {
+color:red
+}
+
+h1 {
+line-height: 1.0em;
+}
+
+.grey_border {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid darkgrey
+}
+
+.hed {
+margin-top: 20px;
+margin-bottom: 15px;
+text-align: center;
+}
+
+h5 {
+text-align: center;
+}
+
+.fhed {
+padding-top: 20px;
+border-top: 2px solid darkgrey;
+text-align: center;
+}
+
+.btn {
+  border-radius: 0;
+/*   background-color: red */
+}
+
+.red {
+  color:red
+}
+
+.hed6 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center
+}
+
+.details {
+  margin-bottom: 10px
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  size: 0.7em;
+  letter-spacing: 0.5em
+}
+
+.mt {
+  margin-top: 10px
+}
+
+.bred {
+  background:red
+}
+
+.backgroundDetail {
+  background: url("./assets/images/List.jpg");
+  background-size: cover;
+  min-height: -webkit-fill-available;
+  padding: 20px 0 20px 0;
+}
+
+@media (max-width: 1060px) {
+  .container2 {
+    max-width: 80%;
+    margin: 5% 10% 0 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .propDetailImg {
+    height: auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }  
+}
+
+@media (max-width: 749px) {
+  .container2 {
+    max-width: 96%;
+    margin: 5% 2% 0 2%;
+  }
+  .imgSize {
+    height: 80px;
+    width: 80px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .imgSize {
+    height: 70px;
+    width: 70px;
+  }
+  .container2 {
+    max-width: 100%;
+    margin: 5% 0 0 0;
+  }
+  .backgroundDetail {
+    background: url("./assets/images/List.jpg");
+    background-size: cover;
+    min-height: -webkit-fill-available;
+    padding: 20px 0 20px 0;
+  }
+  .outer {
+    width: auto;
+  }
+  .container {
+    max-width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container2 {
+    max-width: 100%;
+    margin: 5% 0 0 0;
+  }
+  .logo {
+    width: auto;
+    margin-bottom: 15px;
+  }
+}

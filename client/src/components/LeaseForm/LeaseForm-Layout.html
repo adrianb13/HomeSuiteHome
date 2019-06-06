@@ -1,0 +1,48 @@
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="form-group col-md-4">
+                <label for="leaseType">Lease Type</label>
+                <select class="form-control" id="leaseType">
+                    <option value="month-to-month">Month-to-Month Agreement</option>
+                    <option value="annual" selected>Annual Lease Agreement</option>
+                </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="leaseStartDate">Lease Start Date</label>
+                    <input type="text" class="form-control" id="leaseStartDate" placeholder="01/01/2019">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="leaseEndDate">Lease End Date</label>
+                    <input type="text" class="form-control" id="leaseEndDate" placeholder="12/31/2019">
+                </div>
+            </div>
+
+            
+            <div class="row">
+                    <div class="form-group col-auto">
+                        <label for="securityDeposit">Security Deposit</label>
+                        <input type="text" class="form-control" id="securityDeposit" placeholder="$1500">
+                    </div>
+                    <div class="form-group col-auto">
+                        <label for="lateFee">Late Fee</label>
+                        <input type="text" class="form-control" id="lateFee" placeholder="$50">
+                    </div>
+                    <div class="form-group col-auto">
+                        <label for="nsfFee">NSF Fee</label>
+                        <input type="text" class="form-control" id="nsfFee" placeholder="$50">
+                    </div>
+                </div>
+
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
